@@ -1,7 +1,6 @@
 
 import UIKit
 
-
 protocol OSCountryDidSelectCountry: class {
     func data(country: String,Code: String , Id: String, iso: String, flag : UIImage?)
 }

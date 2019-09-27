@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1B1CB15382EDF2A9D8273046A386C0BB"
+               BlueprintIdentifier = "5EF2F194586DB078A5FFCC1B53E7311B"
                BuildableName = "Pods_OSCountryPicker.framework"
                BlueprintName = "Pods-OSCountryPicker"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1B1CB15382EDF2A9D8273046A386C0BB"
+            BlueprintIdentifier = "5EF2F194586DB078A5FFCC1B53E7311B"
             BuildableName = "Pods_OSCountryPicker.framework"
             BlueprintName = "Pods-OSCountryPicker"
             ReferencedContainer = "container:Pods.xcodeproj">
