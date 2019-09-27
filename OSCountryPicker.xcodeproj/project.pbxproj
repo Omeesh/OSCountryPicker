@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1807FC5A233E34AE00D8E41A /* OSCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807FC59233E34AE00D8E41A /* OSCountryPicker.swift */; };
 		189213FF233DEE2600D5E748 /* OSCountryPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 189213FD233DEE2600D5E748 /* OSCountryPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18921408233DEE4200D5E748 /* SelectCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18921406233DEE4200D5E748 /* SelectCountryViewController.swift */; };
 		18921409233DEE4200D5E748 /* SelectCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18921407233DEE4200D5E748 /* SelectCountryTableViewCell.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1807FC59233E34AE00D8E41A /* OSCountryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCountryPicker.swift; sourceTree = "<group>"; };
 		189213FA233DEE2600D5E748 /* OSCountryPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OSCountryPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		189213FD233DEE2600D5E748 /* OSCountryPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSCountryPicker.h; sourceTree = "<group>"; };
 		189213FE233DEE2600D5E748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				18921406233DEE4200D5E748 /* SelectCountryViewController.swift */,
+				1807FC59233E34AE00D8E41A /* OSCountryPicker.swift */,
 				18921407233DEE4200D5E748 /* SelectCountryTableViewCell.swift */,
 			);
 			path = Classes;
@@ -268,6 +271,7 @@
 			files = (
 				18921409233DEE4200D5E748 /* SelectCountryTableViewCell.swift in Sources */,
 				18921408233DEE4200D5E748 /* SelectCountryViewController.swift in Sources */,
+				1807FC5A233E34AE00D8E41A /* OSCountryPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

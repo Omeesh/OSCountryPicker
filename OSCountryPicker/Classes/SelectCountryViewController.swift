@@ -6,7 +6,7 @@ protocol OSCountryDidSelectCountry: class {
 }
 
 
-public final class SelectCountryViewController: UIViewController ,UITableViewDelegate, UITableViewDataSource {
+class SelectCountryViewController: UIViewController ,UITableViewDelegate, UITableViewDataSource {
     
     //MARK: OUTLETS
     
@@ -52,7 +52,7 @@ public final class SelectCountryViewController: UIViewController ,UITableViewDel
     
     var searchTint = UIColor.black
     
-    override public func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         self.searchView.clipsToBounds = true
         
@@ -72,16 +72,16 @@ public final class SelectCountryViewController: UIViewController ,UITableViewDel
     }
     
     
-    override public func viewDidLayoutSubviews() {
+    override func viewDidLayoutSubviews() {
         self.searchView.layer.borderColor = UIColor.lightGray.cgColor
     }
     
     
-    override public func viewWillAppear(_ animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.navigationBar.isHidden = false
     }
     
-    public func getCountries() -> NSArray?{
+    func getCountries() -> NSArray?{
         let file = self.language.rawValue
         if let path = Bundle.main.path(forResource: file, ofType: "json") {
             do {
@@ -104,7 +104,7 @@ public final class SelectCountryViewController: UIViewController ,UITableViewDel
     }
     
     
-    override public func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
@@ -116,7 +116,7 @@ public final class SelectCountryViewController: UIViewController ,UITableViewDel
     //MARK: BUTTONS ACTIONS
     
     
-    @IBAction public func didChange(_ sender: UITextField) {
+    @IBAction func didChange(_ sender: UITextField) {
         if sender.text?.isEmpty == true{
             self.searchArray = self.countryArray
         }else{
@@ -139,11 +139,11 @@ public final class SelectCountryViewController: UIViewController ,UITableViewDel
     
     //MARK: TABLE VIEW
     
-    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return searchArray?.count ?? 0
     }
     
-    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "SelectCountryTableViewCell")as! SelectCountryTableViewCell
         let dict = self.searchArray?[indexPath.row] as? [String:Any]
@@ -155,7 +155,7 @@ public final class SelectCountryViewController: UIViewController ,UITableViewDel
     }
     
     
-    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let dict = self.searchArray?[indexPath.row] as? [String:Any]
         let count =  dict?["name"] as? String ?? ""
         let cod =  dict?["code"] as? String ?? ""
