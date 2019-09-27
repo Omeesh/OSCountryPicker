@@ -11,7 +11,7 @@ import UIKit
 class OSCountryPicker: NSObject {
     
     
-    func countryPicker()->UIViewController{
+   class func countryPicker()->UIViewController{
         let story = UIStoryboard.init(name: "Main", bundle: nil)
         let vc = story.instantiateViewController(withIdentifier: "SelectCountryViewController")as! SelectCountryViewController
         return vc
