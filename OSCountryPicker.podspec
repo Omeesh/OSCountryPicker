@@ -30,6 +30,7 @@ s.framework = "UIKit"
 # 8
 s.source_files = "OSCountryPicker/**/*.{swift}"
 
+s.resources = "OSCountryPicker/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
