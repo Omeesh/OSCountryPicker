@@ -1,7 +1,7 @@
 
 import UIKit
 
-protocol OSCountryDidSelectCountry: class {
+protocol OSCountryDidSelectCountry: AnyObject {
     func data(country: String,Code: String , Id: String, iso: String, flag : UIImage?)
 }
 

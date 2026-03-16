@@ -91,7 +91,8 @@
 				18921405233DEE3900D5E748 /* Classes */,
 				189213FE233DEE2600D5E748 /* Info.plist */,
 			);
-			path = OSCountryPicker;
+			name = OSCountryPicker;
+			path = Sources/OSCountryPicker;
 			sourceTree = "<group>";
 		};
 		18921405233DEE3900D5E748 /* Classes */ = {
@@ -411,7 +412,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OSCountryPicker/Info.plist;
+				INFOPLIST_FILE = Sources/OSCountryPicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -439,7 +440,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OSCountryPicker/Info.plist;
+				INFOPLIST_FILE = Sources/OSCountryPicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

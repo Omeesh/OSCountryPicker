@@ -1,10 +1,3 @@
-//
-//  SelectCountryTableViewCell.swift
-//  Holimate
-//
-//  Created by Omeesh Sharma on 20/05/17.
-//  Copyright © 2017 Relinns Technologies. All rights reserved.
-//
 
 import UIKit
 

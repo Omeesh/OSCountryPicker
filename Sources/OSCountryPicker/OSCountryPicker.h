@@ -1,10 +1,4 @@
-//
-//  OSCountryPicker.h
-//  OSCountryPicker
-//
-//  Created by apple on 27/09/19.
-//  Copyright © 2019 apple. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
 
